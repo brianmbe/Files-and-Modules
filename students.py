@@ -1,8 +1,11 @@
 from csv import writer
+from files import students
 
-students = ['name', 'age', 'places']
 
-with open('students.csv', 'w', newline="") as file:
-    writer = writer(file)
-    writer.writerow(students)
+def main():
+    with open('students.csv', 'w', newline="") as file:
+        writer_file = writer(file)
+        writer_file.writerow(students)
 
+
+main()
