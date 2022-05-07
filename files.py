@@ -1,4 +1,4 @@
-students = ['name', 'age', 'places']
+students = ['Name', 'Age', 'Places']
 
 
 def student_data():
